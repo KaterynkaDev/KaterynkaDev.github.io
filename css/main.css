@@ -107,7 +107,7 @@ body {
   height: 40vh;
   position: relative;
   margin-bottom: 2rem;
-  background: url('/Users/katerynah./github/HTML/RecipesHTML/assets/main.jpeg') center/cover no-repeat;
+  background: url('/Users/katerynah./github/HTML/RecipesHTML/assets/main.jpg') center/cover no-repeat;
   border-radius: var(--borderRadius);
 }
 
