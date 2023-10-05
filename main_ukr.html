@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ukr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <title> Сайт з рецептами</title>
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <header class="top">
+            <script>
+                function changeLanguage(lang) {
+                    if (lang === 'ukr') {
+                        window.location.href = 'main_ukr.html';
+                    } else if (lang === 'es') {
+                        window.location.href = 'main_es.html';
+                    } else {
+                        window.location.href = 'main.html';
+                    }
+                }
+            </script>
+            <div class="top-container">
+                <div class="top-text">
+                    <h1>Мої рецепти</h1>
+                    <h4>домашні рецепти, легкі в приготуванні</h4>
+                    <div class="language-switcher">
+                        <img src="./assets/eng.jpeg" alt="English" class="flag"
+                            onclick="changeLanguage('en')" />
+                        <img src="./assets/ukr.jpeg" alt="Ukrainian"
+                            class="flag" onclick="changeLanguage('ukr')" />
+                        <img src="./assets/esp.jpeg" alt="Spanish" class="flag"
+                            onclick="changeLanguage('es')" />
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/praguecakenew.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Пражський пиріг</h5>
+                            <p class="card-text">Класичний пражський пиріг,
+                                надзвичайно ніжний і легкий у приготуванні.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe1_ukr.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/omelet.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Омлет</h5>
+                            <p class="card-text">Неймовірно вишуканий рецепт
+                                омлету з ніжним сирним смаком</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe2_ukr.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/chocolatebananacake.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Шоколадно-банановий пиріг</h5>
+                            <p class="card-text">Смачний шоколадно-банановий
+                                торт. Гармонійне поєднання шоколадного смаку з
+                                сметанково-банановим відтінком.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe3_ukr.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/biscuits.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Цукрове Печиво</h5>
+                            <p class="card-text">Написати.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe4_ukr.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/fruitberrycake.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Фруктово-ягідний пиріг</h5>
+                            <p class="card-text">Написати</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe5_ukr.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/blackberry_cake.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Пиріг з чорникою</h5>
+                            <p class="card-text">Написати</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe6.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/biscuits_black.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Шоколадне Печиво</h5>
+                            <p class="card-text">Написати</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe7.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/apricotcake.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Пиріг з Абрикосами</h5>
+                            <p class="card-text">Написати</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe8.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-3 d-flex align-items-stretch">
+                    <div class="card">
+                        <img src="./assets/hamburgers.jpg"
+                            class="card-img-top recipe-image" alt="Recipe Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Домашні гамбургери</h5>
+                            <p class="card-text">написати</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="recipe9.html" class="recipe-link">Рецепт</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer">
+            <p>
+                &copy;
+                Створено <a
+                    href="https://golionkok.wixsite.com/katerynaholionko">Kateryna
+                    Holionko</a>
+            </p>
+        </footer>
+    </body>
+</html>
